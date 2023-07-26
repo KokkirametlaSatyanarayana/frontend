@@ -1,0 +1,332 @@
+         ////////   rlab 11 to 26  answers    ////////
+
+11.)
+
+[1] "Structure of the empty dataframe:"
+'data.frame':	0 obs. of  5 variables:
+$ Ints      :int 
+$ Doubles   :num 
+$ Characters:chr 
+$ Logicals  :logi 
+$ Factors   :Factor w/ 0 levels: 
+NULL
+
+12.)
+
+[1] "Original data frame:"
+[1] "Anastasia" "Dima"      "Katherine" "James"     "Emily"    
+[1] 12.5  9.0 16.5 12.0  9.0
+[1] 1 3 2 3 2
+[1] "yes" "no"  "yes" "no"  "no" 
+      name score attempts qualify
+1 Anastasia  12.51     yes
+2      Dima   9.0        3      no
+3 Katherine  16.5        2     yes
+4     James  12.0        3      no
+5     Emily   9.0        2      no
+
+13.)
+  
+[1] "Original data frame:"
+a  b
+1 10 10
+2 20 30
+3 10 10
+4 10 20
+5 40  0
+6 50 50
+7 20 30
+8 30 30
+[1] "Duplicate elements of the said data frame:"
+[1] FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE
+[1] "Unique rows of the said data frame:"
+a  b
+1 10 10
+2 20 30
+4 10 20
+5 40  06 50 50
+8 30 30
+
+15.)
+
+      [,1] [,2] [,3]
+[1,]    1   11   21
+[2,]    2   12   22
+[3,]    3   13   23
+[4,]    4   14   24
+[5,]    5   15   25
+
+16.)
+       [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    2    6   10
+[3,]    3    7   11
+[4,]    4    8   12
+     [,1] [,2] [,3]
+[1,]   21   26   31
+[2,]   22   27   32
+[3,]   23   28   33
+[4,]   24   29   34
+[5,]   25   30   35
+      [,1] [,2] [,3]
+ [1,]    1    5    9
+ [2,]    2    6   10
+ [3,]    3    7   11
+ [4,]    4    8   12
+ [5,]   21   26   31
+ [6,]   22   27   32
+ [7,]   23   28   33
+ [8,]   24   29   34
+ [9,]   25   3035
+
+
+
+17.)
+
+
+[1] "Original Matrix:"
+     [,1] [,2] [,3] [,4]
+[1,]1    2    3    4
+[2,]    5    6    7    8
+[3,]    9   10   11   12
+[4,]   13   14   15   16
+[1] "Row and column of maximum value of the said matrix:"
+     row col
+[1,]   4   4
+[1] "Row and column of minimum value of the said matrix:"
+     row col
+[1,]   1   1
+
+
+18.)
+ 
+[1]0 1 2 3 45 6 7 8 9
+
+19.)
+
+[1] "Original Vectors:"
+[1] 10 20 30
+[1] 20 10 40
+[1] "Product of two Vectors:"
+[1]  200  200 1200
+
+
+20.)
+
+[1] "Sum:"
+[1] 60
+[1] "Mean:"
+[1] 20
+[1] "Product:"
+[1] 6000
+
+
+21.)
+
+[1] "List:"
+[[1]]
+[1] "Red"   "Green" "Black"
+
+[[2]]
+     [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    3    7   11[[3]]
+[[3]][[1]]
+[1] "C"
+
+[[3]][[2]]
+[1] "C++"
+[[3]][[3]]
+[1]"JAVA"[1] "List with column names:"
+$Color
+[1] "Red"   "Green" "Black"
+
+$`Odd numbers`
+     [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    3    7   11
+
+$`Language(s)`
+$`Language(s)`[[1]]
+[1] "C"
+
+$`Language(s)`[[2]]
+[1] "C++"
+
+$`Language(s)`[[3]]
+[1] "JAVA"
+
+22.)
+
+[1] "List:"
+[[1]]
+[1] "Red"   "Green" "Black"
+
+[[2]]
+     [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    3    7   11
+
+[[3]]
+[[3]][[1]]
+[1] "Python"
+
+[[3]][[2]]
+[1] "C++"
+
+[[3]][[3]]
+[1] "Java"
+
+
+[1] "List with column names:"
+$Color
+[1] "Red"   "Green" "Black"
+
+$`Odd numbers`
+     [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    3    7   11
+
+$`Language(s)`
+$`Language(s)`[[1]]
+[1] "Python"
+
+$`Language(s)`[[2]]
+[1] "C++"
+
+$`Language(s)`[[3]]
+[1] "Java"
+
+
+[1] "1st element:"
+$Color
+[1] "Red"   "Green" "Black"
+
+[1] "2nd element:"
+$`Odd numbers`
+     [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    3    7   11
+
+23.)
+
+[1] "List:"[[1]]
+[1]"Red"   "Green" "Black"
+
+[[2]]
+     [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    3    7   11
+
+[[3]]
+[[3]][[1]]
+[1] "Python"
+
+[[3]][[2]]
+[1] "PHP"
+
+[[3]][[3]]
+[1] "Java"
+
+
+[1] "Remove the second element of the list:"
+[1] "New list:"
+[[1]]
+[1] "Red"   "Green" "Black"
+
+[[2]]
+[[2]][[1]]
+[1] "Python"
+
+[[2]][[2]]
+[1] "PHP"
+
+[[2]][[3]]
+[1] "Java"
+
+24.)
+
+[1] "Original nested list:"
+[[1]]
+[[1]][[1]]
+[1] 0
+
+[[1]][[2]]
+[1] 2
+
+
+[[2]]
+[[2]][[1]]
+[1] 3
+
+[[2]][[2]]
+[1] 4
+
+
+[[3]]
+[[3]][[1]]
+[1] 5
+
+[[3]][[2]]
+[1] 6
+
+
+[1] "Second element of the nested list:"
+[[1]]
+[1] 2
+
+[[2]]
+[1] 4
+
+[[3]]
+[1] 6
+
+25.)
+
+[1]"Original lists:"
+[[1]]
+[1] 1
+
+[[2]]
+[1] 2
+
+[[3]]
+[1] 3
+
+[[1]]
+[1] "Red"
+
+[[2]]
+[1] "Green"
+
+[[3]]
+[1] "Black"
+
+[1] "Merge the said lists:"
+[1] "New merged list:"
+[[1]]
+[1] 1
+
+[[2]]
+[1] 2
+
+[[3]]
+[1] 3
+
+[[4]]
+[1] "Red"
+
+[[5]]
+[1] "Green"
+
+[[6]]
+[1] "Black"
+
+26.)
+
+[1] "Content of the list:"
+[1] "Sequence of 15 capital letters, starting from ‘E’-"
+ [1] "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T"  
+
+
+
